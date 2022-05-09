@@ -1,4 +1,4 @@
-function calculateStock(){
+function Stock(atual,max,mini){
     let atual = 0
     let max = 0
     let mini = 0 
@@ -9,7 +9,7 @@ function calculateStock(){
         return 'Não efetuar compra'
     }
     else{
-        'Efetuar compra'
+       return 'Efetuar compra'
     }
 
 
